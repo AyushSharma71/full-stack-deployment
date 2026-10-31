@@ -11,7 +11,7 @@ app.use(cors({
     origin:[
         "http://localhost:3000",
         "http://13.126.132.242"  //production address
-    ]
+    ],
     credentials:true
 }));
 
