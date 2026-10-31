@@ -22,7 +22,7 @@ app.get("/api/message",(req,res)=>{
     res.json({message:"Hello from the deployment learning"});
 })
 
-app.listen(port,()=>{
+app.listen(port,'0.0.0.0',()=>{
     console.log(`server is listening on ${port}`);
 })
 

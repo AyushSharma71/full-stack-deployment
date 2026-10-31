@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
 
-  const base_url ="http://localhost:3500"
+  const base_url ="http://13.126.132.242:3500"
   const [message,setMessage] =useState('');
 
   useEffect(()=>{
