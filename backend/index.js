@@ -8,7 +8,10 @@ dotenv.config({
 const app= express();
 app.use(express.json());
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:[
+        "http://localhost:3000",
+        "http://13.126.132.242"  //production address
+    ]
     credentials:true
 }));
 
