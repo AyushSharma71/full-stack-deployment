@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
 
-  const base_url = import.meta.env.VITE_API_URL;
+  const base_url = "http://15.206.211.96:3500";
   console.log(base_url)
   const [message,setMessage] =useState('');
 
