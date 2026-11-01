@@ -12,7 +12,10 @@ function App() {
     //   .then(({ data }) => setMessage(data.message))
     //   .catch((error) => console.error("Failed to load the data", error));
     async function fetchmessage() {
+      console.log("useEffect running");
+
       const response =await axios.get(`${base_url}/api/message`)
+      console.log("API response:", response.data);
       setMessage(response.data.message)
     }
     fetchmessage();
