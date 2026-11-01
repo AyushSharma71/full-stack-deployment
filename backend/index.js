@@ -10,8 +10,8 @@ app.use(express.json());
 app.use(cors({
     origin:[
         "http://localhost:3000",
-        "http://13.126.132.242:3000",  //production address
-        "http://13.126.132.242"
+        "http://15.206.211.96:3000",  //production address
+        "http://15.206.211.96"
     ],
     credentials:true
 }));
