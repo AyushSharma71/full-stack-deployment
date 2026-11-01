@@ -5,6 +5,7 @@ import './App.css'
 function App() {
 
   const base_url = import.meta.env.VITE_API_URL;
+  console.log(base_url)
   const [message,setMessage] =useState('');
 
   useEffect(()=>{
